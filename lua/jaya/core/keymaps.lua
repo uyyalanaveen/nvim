@@ -27,8 +27,9 @@ vim.keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 vim.keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 -- Git
-vim.api.nvim_set_keymap("n", "<leader>gc", ":Git commit -m \"", {noremap=false})
-vim.api.nvim_set_keymap("n", "<leader>gp", ":Git push -u origin HEAD<CR>", {noremap=false})
+vim.api.nvim_set_keymap("n", "<leader>git", ":Git ", {noremap=false})
+vim.api.nvim_set_keymap("n", "<leader>gitc", ":Git commit -m \"", {noremap=false})
+vim.api.nvim_set_keymap("n", "<leader>gpush", ":Git push -u origin HEAD<CR>", {noremap=false})
 
 -- twilight
 vim.api.nvim_set_keymap("n", "tw", ":Twilight<enter>", {noremap=false})
