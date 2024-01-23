@@ -39,3 +39,9 @@ vim.api.nvim_set_keymap("n", "<leader>gpush", ":Git push -u origin HEAD<CR>", {n
 -- twilight
 vim.api.nvim_set_keymap("n", "tw", ":Twilight<enter>", {noremap=false})
 
+-- live-server
+vim.api.nvim_set_keymap("n", "<leader>ls", ":LiveServerStart<enter>", {noremap=false})
+
+-- save
+vim.api.nvim_set_keymap("n", "<leader>wa", ":wa<enter>", {noremap=false})
+
